@@ -1,0 +1,127 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+.gora
+{
+    text-align: center;
+    background-color: #ffffff; !important
+    padding-top: 30px; 
+    width: 100%;
+    height: 85px;
+    
+    
+}
+.lista
+{
+    margin-right: 50px;
+    height: 5%;
+    width: 100%;
+    clear: both;
+    
+      
+}
+.gora2
+{
+	text-align: center;
+    width: 100%;
+    margin-right: 50px;
+    background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
+}
+
+.menu
+{
+	list-style-type: none;
+	padding-top: 15px;
+    background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+   
+}
+
+.menu > li
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+
+    
+    
+}
+
+.menu a
+{
+	text-decoration: none;
+    color: #ffffff;
+}
+
+.menu a:hover
+{
+	color: #FFFFF0;
+}
+.menu > li > ul
+{ 
+    list-style-type:none;
+    padding:10px;
+    margin:0;
+    text-align: center;
+    display:none;  
+    position: fixed;
+    background-image: linear-gradient(90deg, #272d6b 0%, #1e224b 100%);
+}
+.menu > li > ul > li > a
+{
+    display: block; 
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    border: solid 2px lightgray;
+}
+
+
+.menu > li > ul > li:hover a 
+{
+  color:lightgray;
+    
+}
+.menu > li:hover > ul 
+{
+    display:block;
+    
+}
+.main
+{
+height: 700px;
+width: 100%;    
+padding: 0;    
+font-size: 60px; 
+background-image: url(img/background.png);
+background-size: cover;     
+clear: both;  
+color: #fffffc;
+font-weight: bold;
+font-family: sans-serif;
+text-align: center;
+}
+
+.button
+{
+	background-color: darkred;
+	border-radius: 5px;
+	min-width: 300px;
+    padding: 20px;
+	color: white;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+.top >img
+{
+    margin-right: 100px;
+}
